@@ -1,4 +1,4 @@
-### gulp-copyright
+### gulp-copyright2
 > Add the copyright in you source file.
 
 ### install
@@ -12,7 +12,7 @@ $ npm install --save-dev gulp-copyright2
 ```javascript
 gulp = require 'gulp'
 coffee = require 'gulp-coffee'
-copyright = require './lib/index'
+copyright = require 'gulp-copyright2'
 
 
 gulp.task 'example', ->
